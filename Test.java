@@ -15,7 +15,7 @@ public class Test
 		Random r=new Random();
 		while(endPiont>=player1Position||endPiont>=player1Position)
 		{			  // TOSS
-			tossPlayer1=r.nextInt(2);// 0 BackWard 		1 Forward
+			tossPlayer1=r.nextInt(2);// 0 = BackWard 		1 = Forward
 			move1=r.nextInt(6)+1;
 			tossPlayer2=r.nextInt(2);
 			move2=r.nextInt(6)+1;
